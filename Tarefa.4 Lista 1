@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int numero, percentual;
+	float resultado;
+	
+ 	cout << "Digite um numero inteiro: ";
+    cin >> numero;
+    
+    cout << "Digite um percentual a ser aplicado: ";
+    cin >> percentual;
+    
+    resultado = numero*(percentual/100.0);
+    
+    cout << "O valor aplicado foi: " << resultado;
+ 	}
